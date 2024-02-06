@@ -1,0 +1,106 @@
+/* Estilos personalizados */
+body {
+    background-color: #f8f9fa;
+}
+
+header{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+}
+
+nav{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+.navbar-brand {
+    color: #000000;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #000000;
+}
+
+.card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-title {
+    color: #000000;
+    font-weight: bold;
+}
+
+.card-body {
+    color: #000000;
+}
+
+.footer {
+    background-color: #0e0e0e;
+    border-top: 1px solid #dee2e6;
+    padding: 20px 0;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+/* Estilos específicos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
+
+
+h1 {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+h2 {
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+h3 {
+    color: #333333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+h4 {
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+.button {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #ff4081;
+}
+
+.social-media-icon {
+    width: 30px; /* Ajusta el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin-right: 10px; /* Añade un espacio entre las imágenes */
+}
+.logo-icon {
+    width: 25px; /* Ajusta el ancho de los logotipos */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin-right: 10px; /* Añade un espacio entre los logotipos */
+}
